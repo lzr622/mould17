@@ -1,0 +1,211 @@
+span.cgreen
+    color: #00cc99
+.fir
+    @media (max-width: 759px)
+        padding-top: 20px
+        padding-bottom: 20px
+    @media (min-width: 760px)
+        padding-top: 25px
+        padding-bottom: 25px
+    @media (min-width: 1200px)
+        padding-top: 30px
+        padding-bottom: 30px
+    .intr
+        .title
+            font-size: 24px
+            margin-top: 30px
+            font-weight: bold
+        .content
+            margin-top: 25px
+            margin-bottom: 30px
+            p
+                @media (min-width: 1200px)
+                    line-height: 30px
+                padding: 8px 0px
+        .lne-big
+            .zixun1
+                padding-left: 0px
+                height: 30px
+                .litoude
+                    padding: 8px
+                    background-color: #00cc99
+                    text-align: center
+                    color: #ffffff
+                    &:hover
+                        span
+                            font-size: 16px
+                    span
+                        line-height: 24px
+
+            .zixun2
+                height: 30px
+                padding-right: 0px
+                @media (max-width: 999px)
+                    margin-bottom: 25px
+                .litoude
+                    padding: 6px
+                    border: 1px solid #00cc99
+                    text-align: center
+                    &:hover
+                        span
+                            font-size: 16px
+                    span
+                        color: #00cc99
+                        line-height: 24px
+
+.sec
+    margin-bottom: 30px
+    .container
+        .line-big
+            .title
+                color: #646464
+                font-size: 24px
+                margin-top: 20px
+                margin-bottom: 10px
+                padding-left: 15px
+            .s_1
+                margin-bottom: 20px
+                p   
+                    @media (min-width: 1200px)
+                        line-height: 30px
+                    margin-top: 9px
+                    margin-bottom: 9px
+            .s_2
+                margin-bottom: 20px
+                p   
+                    @media (min-width: 1200px)
+                        line-height: 30px
+                    margin-top: 9px
+                    margin-bottom: 9px
+            .s_3
+                margin-top: 20px
+                margin-bottom: 30px
+                @media (max-width: 759px)
+                    margin-top: 20px
+                    margin-bottom: 0px
+            .title4
+                color: #646464
+                font-size: 24px
+                margin-top: 10px
+                margin-bottom: 10px
+                padding-left: 15px
+                @media (max-width: 759px)
+                    margin-top: 20px
+            .s_4
+                margin-top: 0px
+                margin-bottom: 20px
+                p
+                    margin-top: 10px
+                    margin-bottom: 10px
+
+
+.container.sec_2
+    text-align: center
+    margin-top: 30px
+    margin-bottom: 20px
+    @media (max-width: 759px)
+        padding-bottom: 70px
+    @media (min-width:1300px)
+        margin-top: 30px
+        width: 1230px
+    .title
+        color: #00cc99
+        font-size: 24px
+        font-weight: 700
+        text-align: left
+        margin-bottom: 20px
+        padding-left: 15px
+    .banner
+        .carousel
+            .item
+                position: relative
+                @media (max-width:1199px)
+                    box-sizing: border-box
+                    padding-left: 2px
+                    padding-right: 2px
+                .itcontent
+                    @media (max-width:759px)
+                        .float-right
+                            margin-top: 15px
+                            margin-right: 15px
+                        .ernzi
+                            padding-top: 30%
+                            width: 80%
+                            margin: 0px auto
+                    @media (min-width:760px)
+                        width: 237px
+                        height: 219px
+                        padding: 20px
+                    @media (min-width:1000px)
+                        width: 237px
+                        height: 219px
+                        padding: 20px
+                    @media (min-width:1200px)
+                        width: 270px
+                        height: 250px
+                        padding: 20px
+                    color: #00cc99
+                    position: absolute
+                    left: 50%
+                    transform: translateX(-50%)
+                    bottom: 100%
+                    background-color: rgba(51,51,51,0.8)
+                    transition: all ease-in-out 0.3s
+                    .ernzi
+                        text-align: center
+                        @media (min-width:760px)
+                            margin-top: 40px
+                            padding: 20px 25px
+                        @media (min-width:1000px)
+                            margin-top: 40px
+                            padding: 20px 25px
+                        @media (min-width:1200px)
+                            margin-top: 60px
+                            padding: 20px 25px
+                &:hover
+                    .itcontent
+                        bottom: 41px
+                .title
+                    text-align: center
+                    font-size: 16px
+                    margin: 10px 0px
+                    font-weight: normal
+                    color: #646464
+        .pointer
+            display: none
+    .pager-prev
+        display: inline-block;
+        border: none
+        z-index: 1000
+        @media (max-width: 1399px)
+            margin-top: 10px
+            margin-right: 4px
+        @media (min-width: 1400px)
+            margin-top: -150px
+            margin-left: -50px
+            float: left
+        width: 40px
+        height: 40px
+        border-radius: 0px
+        background: url('/img/black-left.png') no-repeat 
+        &:hover
+            background-color: #ffffff
+            background: url('/img/green-left.png') no-repeat 
+    .pager-next
+        display: inline-block;
+        border: none
+        z-index: 1000
+        @media (max-width: 1399px)
+            margin-top: 10px
+            margin-left: 4px
+        @media (min-width: 1400px)
+            margin-top: -150px
+            margin-right: -50px
+            float: right
+        width: 40px
+        height: 40px
+        border-radius: 0px
+        background: url('/img/black-right.png') no-repeat 
+        &:hover
+            background-color: #ffffff
+            background: url('/img/green-right.png') no-repeat 
