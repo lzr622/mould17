@@ -14,10 +14,10 @@
     .iw_poi_title {color:#CC5522;font-size:14px;font-weight:bold;overflow:hidden;padding-right:13px;white-space:nowrap}
     .iw_poi_content {font:12px arial,sans-serif;overflow:visible;padding-top:4px;white-space:-moz-pre-wrap;word-wrap:break-word}
     .iw_poi_content p{
-        display: inline-block;width: 182px;height: 20px
+        
     }
     .iw_poi_content p span{
-        display: inline-block;width: 145px
+        
     }
     .img-ib{
         display: inline-block;
@@ -77,7 +77,7 @@
     }
     
     //标注点数组
-    var markerArr = [{title:"黎明重工",content:"欢迎来到黎明重工，你可以通过<span style='color:red'>在线留言</span>或者<span style='color:red'>商务通</span>联系我们，我们的销售经理会尽快和您联系。<br> <p style='float:left'> <img src='./img/contact/map-png.png' alt='' class='img-ib'> <span>中国-郑州-国家高新技术产业开发区科学大道169号</span> </p> <p style='float:left;'> <img src='./img/contact/map-png-2.png' alt='' class='img-ib'> <span>0371-86561351 </span></p><br> <p><img src='./img/contact/map-png-3.png' alt='' class='img-ib'> <span>vip@lmlq.com</span> </p> <br> <img src='./img/contact/map_compig.jpg' alt='' class='img-res'> ",point:"113.51674|34.813826",isOpen:1,icon:{w:102,h:88,l:0,t:0,x:51,lb:0}}];
+    var markerArr = [{title:"黎明重工",content:"欢迎来到黎明重工，你可以通过<span style='color:red'>在线留言</span>或者<span style='color:red'>商务通</span>联系我们，我们的销售经理会尽快和您联系。<br> <p> <b>地址: </b>  <span>中国-郑州-国家高新技术产业开发区科学大道169号</span> </p> <p> <b>电话: </b> <span>0371-86561351 </span></p> <p><b>邮箱: </b> <span>vip@lmlq.com</span> </p> <br> <img src='./img/contact/map_compig.jpg' alt='' class='img-res'> ",point:"113.51674|34.813826",isOpen:1,icon:{w:102,h:88,l:0,t:0,x:51,lb:0}}];
     //创建marker
     function addMarker(){
         for(var i=0;i<markerArr.length;i++){
