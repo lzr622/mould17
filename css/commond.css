@@ -273,7 +273,7 @@ a:hover{
         position: absolute;
         content: '';
         height: 4px;
-        width: 47px;
+        width: 100%;
         background-color: #38cfa6;
         left: 50%;
         transform: translateX(-50%);
